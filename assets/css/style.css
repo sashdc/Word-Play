@@ -222,7 +222,7 @@ h5 {
 /* media query for smaller screens */
 @media only screen and (max-width: 550px) {
     * {
-        font-size: 14px;
+        font-size: 80%;
     }
 
     #home-page {
