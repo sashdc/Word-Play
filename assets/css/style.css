@@ -1,4 +1,7 @@
 /* Universal styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -122,12 +125,17 @@ h5 {
     margin: 10px;
     text-align: center;
     text-transform: capitalize;
+    font-family: 'Indie Flower';
+    font-weight: bolder;
+    font-size: xx-large;
 }
 
 #guessed-word {
-    padding-top: 2rem;
+    padding-top: 1rem;
     letter-spacing: 1px !important;
     text-transform: lowercase;
+    font-family: 'Indie Flower';
+    font-size: larger;
 }
 
 #bank-area {
@@ -151,6 +159,8 @@ h5 {
 #input-alert {
     color: red;
     font-style: italic;
+    text-align: center;
+    margin-top: .5rem;
 }
 
 /* wordbank.html styles */
