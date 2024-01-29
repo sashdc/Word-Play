@@ -28,6 +28,7 @@ let newWordEl = document.getElementById("newWord");
 let letterInput = document.querySelector("#letter-input");
 let submit = document.querySelector("#submitform");
 let letterbankEl = document.querySelector("#letterbank");
+let wrongLetterEl = document.querySelector("#wrong-letterbank");
 let bankAreaEl = document.querySelector("#bank-area");
 let gameplayWordButton = document.getElementById("gameplay-wordbankbutton");
 let gameBox = document.querySelector(".container");
